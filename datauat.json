@@ -1,5 +1,17 @@
 [
   {
+    "No": 0,
+    "Nama": "Rico kurinia",
+    "Email": "ricokurnia19@gmailcom",
+    "Cabang": "KEPULAUAN RIAU",
+    "Kota": "BATAM",
+    "Unit": "TIBAN IMPIAN",
+    "NIS": 8850,
+    "Kelas": "XA",
+    "Asal Sekolah": "SMAN 1 BATAM",
+    "No HP": 8512345678
+  },
+  {
     "No": 1,
     "Nama": "Sugih Ahmad",
     "Email": "sugiharka88@gmailcom",
@@ -97,8 +109,20 @@
   },
   {
     "No": 9,
-    "Nama": "Marchelina Diana",
-    "Email": "marchelinadianap@gmailcom",
+    "Nama": "Rico kurinia",
+    "Email": "ricokurnia19@gmailcom",
+    "Cabang": "KEPULAUAN RIAU",
+    "Kota": "BATAM",
+    "Unit": "TIBAN IMPIAN",
+    "NIS": 8857,
+    "Kelas": "XA",
+    "Asal Sekolah": "SMAN 1 BATAM",
+    "No HP": 8512345679
+  },
+  {
+    "No": 10,
+    "Nama": "Bayu firnanda",
+    "Email": "bafirgenius@gmail.com",
     "Cabang": "KEPULAUAN RIAU",
     "Kota": "BATAM",
     "Unit": "TIBAN IMPIAN",
