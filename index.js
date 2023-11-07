@@ -1,5 +1,9 @@
-const express = require("express");
+const express = require('express');
 const app = express();
-const sendEmail = require("./mailsendmbti");
+const sendEmailsSequentially = require('./mailsendmbti');
+const fs = require('fs');
 
-sendEmail();
+// Load data from a JSON file
+const data = JSON.parse(fs.readFileSync('./datauat.json', 'utf8'));
+
+sendEmailsSequentially(data);
