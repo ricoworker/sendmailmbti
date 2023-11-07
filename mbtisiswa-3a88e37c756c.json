@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mbtisiswa",
+  "private_key_id": "3a88e37c756c1857435e74168afd1720775ec533",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFue4ay5V8brCG\ngj6j1/YoPmC8zmt0+dEIbKhDG3YFh03P6Gr4aQVkQYNEKHNJmu4CDWTS9TvfaOL0\ns3AjpRHqynkQsxcxXYKmldnzpH+I76bDImHzzu+3Gwgc48Qw/YOcG72CnXCYcap1\nVQ95hJ3WikV1mUfCl457A644dhh+im289yGyntSEdpfru5uJFmXIx2QOTsDo7NhN\nF0IGUjEiH8MD0h0AbxXO3FBWgPXc/E1DGmkbnPBIsUNk+bBWtWZ3XHl8txlvjhal\ne9snx3w3ZPnMQaQnp/9E7hVsQ0rpCdm9DS6XiR5/bSu05d/Bp+Lc5gFXFt2zbek4\nBnReuDhLAgMBAAECggEAASnosNeud9WVzGKUbPFLTZcL0rU44ByDtwGMtRz5Z7Sj\nlb49lTeNltsuIytpxtyNbXtg+/YCGnzK+SklMqvvwMYBb0KVbqWEh+ebBMgTo4Ic\nbkq4XpQeWsYZ9GhuMgcL8Pax+bJAFtNP3PIQW4mXIfAdQIo4HwtbBQicgwdqVX10\n/rgO0SDTOzd+VvWLtPPSPLRBNY4CbjiJzZ0VDwDaRtayWvLSX7IR9Jxk7wMjcKx2\n1n02CeByKB/F44B3ALuVksglPfxBkxlt+IEj3PwkmRCguOh7bwJhEDgNmUavFU+S\nphBSKv61Q78wG5OIqupaJL5uwDwZrRLTo3pO1KVewQKBgQDzNPj2TYHAQh3YHn2V\nupGAtXm+JgKDrjW14J7SPlAjeenSMm16Lru9ar5MY1kI+K4lxuxyyDLtIUF1ZZq8\nNCbN7A/a4AuNq8UF9OMge9DcFc9582O4V1b1D9dyHRT006mBUz5f544L6rO/jMa4\nUCbCaMZKgowtW8K5aRHPG4YE4wKBgQDQIIPJhHNPxmqt3aBgsBzB1bn776SdyZ85\npbhGYp11ZlUBjRqPs9LdoMGWvN/BZtV+pp/E3nhm5nC+jMojgY0Qt0pUAC3shj9x\nQU4mfO5eeeV5hKFkYF6lHfibmbUdMrZ2zjyjhtGPn809kcstBhDr9RGjPBVeBctU\nlYiKpm3DeQKBgQDUzYUJ/seJclCqygMZACZQeHoN5zRMBCL7AY/2Zo+4evQc+ALS\n5hFfrAbW0BcXwoCejXBW/tWQp4ifMEg0ZW2OwP8ehOuXCrVagOw7gBtAd9US3+Rh\naAquYy4gq1Gq54lpn2z0fafMxZCCCqvWmktP0F2w1InTJnc7xLPQhETAAQKBgQCF\nEnUQ8QYFmNj2yADWMWSBrxTWd/gqBxMueb4kCsOgn8h0UHMONKz7leCRb7wlXYne\nC82Vw6T6LhciTsSkBR5b9MWqhd7XH1MLJ/U++Jw0ff3yP5Itqsx5CHu/iXza6WTu\n+5ib+gSdr1A8MK7W380MAUrAsxb6YfwK3f1KoXUHCQKBgDqDKSrBR8NgFT/15MFM\nTCZ9GO1FZmbrSvu4FZPDecLzGQpuIfiBWzYvbNUbv1sCpm4or1Afhdc2HtwukDEp\nd3LRio5UkK74/MW2GwLZLZ2bHcCblHP56sO/dek91F+fopcCPbrcKyZ3hwCvNmrm\neUtQh+pVM1cRVh37PD4lxujW\n-----END PRIVATE KEY-----\n",
+  "client_email": "email-mbti-service@mbtisiswa.iam.gserviceaccount.com",
+  "client_id": "108894167685122043198",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/email-mbti-service%40mbtisiswa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

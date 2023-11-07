@@ -1,0 +1,22 @@
+{
+  "name": "sendmailjawaban",
+  "version": "1.0.0",
+  "description": "mengirim jawaban mbti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apis": "^0.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google": "^2.1.0",
+    "googleapis": "^128.0.0",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^6.9.7",
+    "puppeteer": "^21.5.0"
+  }
+}
