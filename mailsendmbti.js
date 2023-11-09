@@ -1,8 +1,10 @@
 const nodemailer = require('nodemailer');
 const puppeteer = require('puppeteer');
 const { google } = require('googleapis');
-const emailHtml = require('./Mailhtml');
+const emailHtml = require('./Bodymail');
+const Hasilmail = require('./Hasilmail');
 const dotenv = require('dotenv');
+const StatusEmail = require('./models');
 
 // Now, you can use the data in the sendEmailsSequentially function
 
@@ -18,7 +20,6 @@ const {
   NODE_EMAIL,
 } = process.env;
 
-console.log(process.env.REFRESH_TOKEN);
 const oauth2Client = new google.auth.OAuth2(
   CLIENT_ID,
   CLIENT_SECRET,
@@ -40,6 +41,8 @@ async function generatePdf(htmlContent) {
 }
 
 async function sendEmail(pdfBuffer, item) {
+  const { nama, email } = item;
+  const date = new Date();
   try {
     const accessToken = await oauth2Client.getAccessToken();
 
@@ -60,38 +63,46 @@ async function sendEmail(pdfBuffer, item) {
 
     const mailOptions = {
       from: 'e',
-      to: item.Email, // Use the recipient's email from the data array
+      to: item.email, // Use the recipient's email from the data array
       subject: 'testes',
-      html: emailHtml(item.Nama),
+      html: emailHtml(),
       attachments: [
         {
-          filename: 'invoice.pdf',
+          filename: `Hasil Tes MBTI ${item.nama} .pdf`,
           content: pdfBuffer,
         },
       ],
     };
 
     const info = await transporter.sendMail(mailOptions);
-
-    console.log(`Email sent to ${item.Email}: ${info.response}`);
+    await StatusEmail.create({
+      nama: nama,
+      email: email,
+      status: 'terkirim',
+      tanggal: date,
+    });
+    console.log(`Email sent to ${item.email}: ${info.response}`);
   } catch (error) {
-    console.error(`Error sending email to ${item.Email}:`, error);
+    await StatusEmail.create({
+      nama: nama,
+      email: email,
+      status: 'tidak terkirim',
+      tanggal: date,
+    });
+    console.error(`Error sending email to ${item.email}:`, error);
   }
 }
 
 // Function to send emails to data array with a delay
 async function sendEmailsSequentially(data) {
   for (const item of data) {
-    const htmlContent = emailHtml(item.Nama); // You can customize the HTML content for each recipient
+    const htmlContent = Hasilmail(item); // You can customize the HTML content for each recipient
 
     try {
       const pdfBuffer = await generatePdf(htmlContent);
       await sendEmail(pdfBuffer, item);
-
-      // Introduce a 5-second delay before sending the next email
-      await new Promise((resolve) => setTimeout(resolve, 5000));
     } catch (error) {
-      console.error(`Error for ${item.Email}:`, error);
+      console.error(`Error for ${item.email}:`, error);
     }
   }
 }

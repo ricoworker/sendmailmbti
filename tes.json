@@ -1,0 +1,77 @@
+[
+  {
+    "_id": {
+      "$oid": "654af9bd100f15d6d211762c"
+    },
+    "nis": "8851",
+    "cabang": "KEPULAUAN RIAU",
+    "kota": "BATAM",
+    "unit": "TIBAN IMPIAN",
+    "nama": "Yadi",
+    "no_hp": "8512345679",
+    "kelas": "XA",
+    "asal_sekolah": "SMAN 1 BATAM",
+    "email": "ricokurnia19@gmail.com",
+    "tanggal_tes": {
+      "$date": "2023-11-07T17:00:00.000Z"
+    },
+    "time": 1699415631,
+    "hasil_mbti": {
+      "$oid": "654b0a0c7691859bb38696e6"
+    },
+    "status_email": 0,
+    "createdAt": {
+      "$date": "2023-11-08T03:00:13.088Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-08T04:09:48.258Z"
+    },
+    "__v": 0,
+    "mbti": {
+      "tipe": ["ISTJ"],
+      "arti": ["Bertanggung Jawab"],
+      "karakter": [
+        "Serius,tenang,stabil&damai",
+        "Senang pada fakta,logis,obyektif,praktis & realistis",
+        "Task oriented,tekun,teratur,menepatijanji,dapat diandalkan bertanggung jawab",
+        "Pendengar yang baik,setia,hanya mau berbagi dengan orang dekat",
+        "Memegang aturan,standar & prosedur dengan teguh"
+      ],
+      "saran_profesi": [
+        "Manajemen",
+        "Polisi",
+        "Intelijen",
+        "Hakim",
+        "Pengacara",
+        "Dokter",
+        "Akuntan(Staf Keuangan)",
+        "Programmer",
+        "TI",
+        "System Analys",
+        "Pemimpin Militer"
+      ]
+    },
+    "tipe": "ISTJ",
+    "arti": "Bertanggung Jawab",
+    "karakter": [
+      "Serius,tenang,stabil&damai",
+      "Senang pada fakta,logis,obyektif,praktis & realistis",
+      "Task oriented,tekun,teratur,menepatijanji,dapat diandalkan bertanggung jawab",
+      "Pendengar yang baik,setia,hanya mau berbagi dengan orang dekat",
+      "Memegang aturan,standar & prosedur dengan teguh"
+    ],
+    "saran_profesi": [
+      "Manajemen",
+      "Polisi",
+      "Intelijen",
+      "Hakim",
+      "Pengacara",
+      "Dokter",
+      "Akuntan(Staf Keuangan)",
+      "Programmer",
+      "TI",
+      "System Analys",
+      "Pemimpin Militer"
+    ]
+  }
+]
